@@ -343,6 +343,21 @@ header {
   margin: 0 auto;
 }
 
+/* Read more */
+#more {
+  display: none;
+}
+
+#moreText {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: var(--clr-accent);
+}
+
 @media (min-width: 800px) {
   .services {
     display: flex;
