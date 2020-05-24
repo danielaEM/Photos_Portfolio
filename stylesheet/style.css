@@ -490,3 +490,12 @@ header {
   padding: 0.5em;
   font-size: var(--fs-h3);
 }
+
+#copyrights {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#copyrights a:hover {
+  text-decoration: underline;
+}
